@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <!-- Apply on install and upgrade so existing internal users move to In Odoo. -->
+    <function model="res.users" name="_force_internal_inbox_notifications" />
+</odoo>
